@@ -1,5 +1,3 @@
-import javax.xml.transform.stream.StreamSource;
-
 public class Enum {
 
     enum Level {
