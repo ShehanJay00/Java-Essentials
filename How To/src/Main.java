@@ -73,6 +73,23 @@ public class Main {
         System.out.println(" ");
 
         //7
+        enum Day {
+            MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
+        }
+
+        for (Day myDay  : Day.values()) {
+            System.out.println(myDay);
+        }
+
+
+        System.out.println(" ");
+
+        //8
+        double random = Math.random();
+        System.out.println(random);
+
+        int randomNum = (int)(Math.random() * 101);
+
 
     }
 }
